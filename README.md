@@ -31,3 +31,16 @@ of simulations, historical data of your selected stocks, the confidence levels (
 will also generate a line chart for your portfolio's daily returns. All data can be downloaded as a CSV file for
 further analysis.
 ![portfolio_risk_simulator](./readmefile/risk_model.png)
+
+# Project Setup
+1. Clone the repository:
+    ```bash
+    git clone <REPOSITORY URL>
+    cd MRMST
+2. Install the required libraries by running the following command:
+
+   ```bash
+   pip install -r requirements.txt
+3. Run streamlit
+    ```bash  
+    streamlit run main_page.py
